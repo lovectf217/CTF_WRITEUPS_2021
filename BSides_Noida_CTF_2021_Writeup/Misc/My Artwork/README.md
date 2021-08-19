@@ -23,7 +23,7 @@ https://www.calormen.com/jslogo/
 
 Copy and paste the **repeat commands** and click **run** button and collect the *characters* it draws
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Misc/My%20Artwork/info.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Misc/My%20Artwork/info.png">
 
 We will get
 `CODE_IS_BEAUTY_BEAUTY_IS_CODE`
