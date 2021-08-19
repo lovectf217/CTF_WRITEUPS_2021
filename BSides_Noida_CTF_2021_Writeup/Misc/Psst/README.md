@@ -4,7 +4,7 @@
 Psst! Want to know a secret? Here, take this...
 
 # Attachments
-[challl link](https://storage.googleapis.com/noida_ctf/Misc/psst.tar.gz) ( Link may be down but I included the file in this dir )
+[challl link](https://github.com/MikelAcker/CTF_WRITEUPS_2021/blob/main/BSides_Noida_CTF_2021_Writeup/Misc/Psst/psst.tar.gz?raw=true) ( Link may be down but I included the file in this dir )
 
 # Solution
 We are given with a **gzip** compressed file called `psst.tar.gz`
