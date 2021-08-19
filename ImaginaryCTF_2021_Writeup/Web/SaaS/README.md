@@ -26,7 +26,7 @@ Bye World
 
 Challenge Web Page
 
-<img src="https://raw.githubusercontent.com/MikelAcker/ImaginaryCTF_2021_Writeup/main/Web/SaaS/info1.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/ImaginaryCTF_2021_Writeup/Web/SaaS/info1.png">
 
 Let's look at the given code first.It is pretty small
 
@@ -80,7 +80,7 @@ Let's try that!!!
 
 [https://saas.chal.imaginaryctf.org/backend?query='' *](https://saas.chal.imaginaryctf.org/backend?query=%27%27+*)
 
-<img src="https://raw.githubusercontent.com/MikelAcker/ImaginaryCTF_2021_Writeup/main/Web/SaaS/info2.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/ImaginaryCTF_2021_Writeup/Web/SaaS/info2.png">
 
 And, we find the flag
 
