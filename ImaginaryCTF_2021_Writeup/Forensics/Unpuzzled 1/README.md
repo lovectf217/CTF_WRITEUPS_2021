@@ -9,21 +9,21 @@ Note: DO NOT stalk/OSINT puzzler7#7657. This will not help you solve this challe
 # Solution
 
 Searching in the discord didn't help me much.I *google* **unpuzzler7** straight.At first I found a youtube channel.But there is nothing like flag.
-<img src="https://raw.githubusercontent.com/MikelAcker/ImaginaryCTF_2021_Writeup/main/Forensics/Unpuzzled%201/info1.png" height=500 width=750>
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/ImaginaryCTF_2021_Writeup/Forensics/Unpuzzled%201/info1.png" height=500 width=750>
 <hr>
 
 But I scrolled down in [google search results](https://www.google.com/search?channel=fs&client=ubuntu&q=unpuzzler7) and I found a interesting link
 https://giters.com/swagkarna?tab=following&amp=1
-<img src="https://raw.githubusercontent.com/MikelAcker/ImaginaryCTF_2021_Writeup/main/Forensics/Unpuzzled%201/info2.png" height=500 width=750>
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/ImaginaryCTF_2021_Writeup/Forensics/Unpuzzled%201/info2.png" height=500 width=750>
 <hr>
 
 I looked at it and there is an account with name **unpuzzler 7**.And, at that account there is one repo called 'cyberpatriot-stuff' in that account.
 https://giters.com/realunpuzzler7?amp=1
-<img src="https://raw.githubusercontent.com/MikelAcker/ImaginaryCTF_2021_Writeup/main/Forensics/Unpuzzled%201/info3.png" height=500 width=750>
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/ImaginaryCTF_2021_Writeup/Forensics/Unpuzzled%201/info3.png" height=500 width=750>
 <hr>
 
 If you look at that repo there are a lot of texts under the title **'cyberpatriot-resources'**.<br><br>
-<img src="https://raw.githubusercontent.com/MikelAcker/ImaginaryCTF_2021_Writeup/main/Forensics/Unpuzzled%201/info4.png" height=500 width=750>
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/ImaginaryCTF_2021_Writeup/Forensics/Unpuzzled%201/info4.png" height=500 width=750>
 <hr>
 If you read closely, there is a gmail address at
 
