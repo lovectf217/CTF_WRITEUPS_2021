@@ -135,6 +135,6 @@ Send that **payload**!!!
 
 And there is the flag
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Web/wowooo/info.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Web/wowooo/info.png">
 
 *flag*: `BSNoida{3z_ch4all_46481684185_!!!!!!@!}`
