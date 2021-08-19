@@ -5,20 +5,20 @@ Writeups for some challenges in **ImaginaryCTF 2021**
 ## Included challenges
 
 ### Misc
-- [Spelling Test](https://github.com/MikelAcker/ImaginaryCTF_2021_Writeup/tree/main/Misc/Spelling%20Test) 100 points
+- [Spelling Test](https://github.com/MikelAcker/CTF_WRITEUPS_2021/tree/main/ImaginaryCTF_2021_Writeup/Misc/Spelling%20Test) 100 points
 
 ### Web
-- [SaaS](https://github.com/MikelAcker/ImaginaryCTF_2021_Writeup/tree/main/Web/SaaS) 100 points
+- [SaaS](https://github.com/MikelAcker/CTF_WRITEUPS_2021/tree/main/ImaginaryCTF_2021_Writeup/Web/SaaS) 100 points
 
 ### Rev
-- [Normal](https://github.com/MikelAcker/ImaginaryCTF_2021_Writeup/tree/main/Rev/Normal) 150 points
+- [Normal](https://github.com/MikelAcker/CTF_WRITEUPS_2021/tree/main/ImaginaryCTF_2021_Writeup/Rev/Normal) 150 points
 
 ### Pwn
-- [stackoverflow](https://github.com/MikelAcker/ImaginaryCTF_2021_Writeup/tree/main/Pwn/stackoverflow) 50 points
+- [stackoverflow](https://github.com/MikelAcker/CTF_WRITEUPS_2021/tree/main/ImaginaryCTF_2021_Writeup/Pwn/stackoverflow) 50 points
 
 ### Forensics
-- [Unpuzzled 1](https://github.com/MikelAcker/ImaginaryCTF_2021_Writeup/tree/main/Forensics/Unpuzzled%201) 100 Points
-- [Unpuzzled 2](https://github.com/MikelAcker/ImaginaryCTF_2021_Writeup/tree/main/Forensics/Unpuzzled%202) 100 Points
-- [Vacation](https://github.com/MikelAcker/ImaginaryCTF_2021_Writeup/tree/main/Forensics/Vacation) 100 Points
+- [Unpuzzled 1](https://github.com/MikelAcker/CTF_WRITEUPS_2021/tree/main/ImaginaryCTF_2021_Writeup/Forensics/Unpuzzled%201) 100 Points
+- [Unpuzzled 2](https://github.com/MikelAcker/CTF_WRITEUPS_2021/tree/main/ImaginaryCTF_2021_Writeup/Forensics/Unpuzzled%202) 100 Points
+- [Vacation](https://github.com/MikelAcker/CTF_WRITEUPS_2021/tree/main/ImaginaryCTF_2021_Writeup/Forensics/Vacation) 100 Points
 
 # Thanks for reading my writeups 🙂🙂🙂
